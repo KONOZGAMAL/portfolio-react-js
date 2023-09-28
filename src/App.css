@@ -25,7 +25,7 @@ body{
 }
 
 .App {
-  width: 84%;
+  width: 86%;
   border: 1px solid #ddd;
   margin: 10px auto;
   height: 100%;
@@ -35,7 +35,7 @@ body{
   font-family: roboto;
   position: relative;
   @media (max-width: 767px) {
-    width: 94%;
+    width: 96%;
   }
 }
 

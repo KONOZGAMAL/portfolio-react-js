@@ -2,7 +2,7 @@
 header{
     position: fixed;
     top: 10px;
-    width: 84%;
+    width: 86%;
     padding: 12px;
     z-index: 100;
     display: flex;
@@ -12,7 +12,7 @@ header{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, .3);
    background-image: url('../../Assets/BG.jpeg');
     @media (max-width: 767px) {
-      width: 94%;
+      width: 96%;
     }
 }
     .logo_port{
