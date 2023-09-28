@@ -18,7 +18,7 @@ header{
     .logo_port{
     flex-basis: 25%;
     @media (max-width: 767px) {
-      flex-basis: 90%;
+      flex-basis: 70%;
     }
     }
     .img_logo2{
@@ -61,13 +61,15 @@ header{
           }
     .profile{
       flex-basis: 25%;
+      @media (max-width: 767px) {
+        flex-basis: 20%;
+      }
     }
     .img_logo2{
         height: 35px;
         aspect-ratio: 1;
         border-radius: 100px;
         object-fit: cover;
-        /* translate: 0 -150%; */
         transition: 0.3s ease;
         translate: 50px;
        @media (max-width: 767px) {

@@ -91,16 +91,13 @@
     }
     
     .social a {
-        transition: 0.3s all;
+        display: inline-block;
         color: #766fa0;
         font-size: 20px;
-        display: inline-block;
+        transition: 0.3s all;
+        cursor: pointer;
     }
     .social a:hover {
-        transform: scale(1.1);
         color: black;
-    }
-    
-    .social a:active {
-        transform: scale(1) translateY(5px);
+        transform: scale(1.1);
     }
