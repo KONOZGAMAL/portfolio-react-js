@@ -1,0 +1,91 @@
+
+header{
+    position: fixed;
+    top: 10px;
+    width: 84%;
+    padding: 12px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(191, 234, 209, 0.3);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .3);
+   background-image: url('../../Assets/BG.jpeg');
+    @media (max-width: 767px) {
+      width: 94%;
+    }
+}
+    .logo_port{
+    flex-basis: 25%;
+    @media (max-width: 767px) {
+      flex-basis: 90%;
+    }
+    }
+    .img_logo2{
+      height: 30px;
+    }
+    h1{
+      font-size: 18px;
+    }
+      i{
+        background: linear-gradient(#8d86b5 , #90a0f2);
+       -webkit-background-clip: text;
+       background-clip: text;
+       color: transparent;
+      }
+      i:hover{
+        transform: translateY(-0.25em);
+      }
+    nav{
+      flex:1;
+      flex-basis: 40%;
+    }
+      ul{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap:20px;
+        padding: 9px 20px;
+      }
+        li{
+          font-size: 14px;
+          cursor: pointer;
+          z-index: 1;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+             a:hover{
+              transform: translateY(-0.25em);
+            }
+          }
+    .profile{
+      flex-basis: 25%;
+    }
+    .img_logo2{
+        height: 35px;
+        aspect-ratio: 1;
+        border-radius: 100px;
+        object-fit: cover;
+        /* translate: 0 -150%; */
+        transition: 0.3s ease;
+        translate: 50px;
+       @media (max-width: 767px) {
+          translate: -20px;
+      } 
+      }
+    
+/* //// Start toggle ///// */
+.toggle{
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  position: fixed;
+  left: 1.7%;
+  bottom: 0px;
+  z-index: -99; 
+  @media (max-width: 557px) {
+    left: .8%;
+  }
+}
+/* //// End toggle ///// */

@@ -1,0 +1,106 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,700;1,400;1,600&family=Raleway:ital,wght@0,300;1,100;1,200&display=swap');
+.about{
+    display: flex;
+    width: 94%;
+    min-height: 100vh;
+    margin-top: 100px;
+    font-family: 'Poppins','sans-serif';
+    @media (max-width: 767px) {
+        flex-direction: column;
+            width: 98%;
+      }
+}
+
+    .name{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        font-family: 'Raleway';
+        flex-basis: 40%;
+        @media (max-width: 767px) {
+            flex-basis: 100%;
+          flex-direction: row;
+          justify-content:space-evenly;
+          align-items: center;
+
+          }
+    }
+        .txtTwo{
+            font-size: 125px;
+            line-height: 140px;
+            text-align: center;
+            @media (max-width: 767px) {
+                font-size: 105px;
+                line-height: 125px;
+              }
+        }
+         .lg{
+                font-size: 200px;
+                line-height: 198px;
+                filter: drop-shadow(0 6px 0 #766fa0);
+                background: linear-gradient(var(--clr-i) , var(--clr-ii));
+                -webkit-background-clip: text;
+                color: transparent;
+                background-clip: text;
+                text-align: center;
+                @media (max-width: 767px) {
+                    font-size: 160px;
+                    line-height: 165px;
+
+                  }
+            }
+
+        .me{
+            position: absolute;
+            bottom: 15px;
+            right: 60px;
+            font-size: 20px;
+            font-weight: bold;
+            background: linear-gradient(var(--clr-i) , var(--clr-ii));
+            -webkit-background-clip: text;
+            color: transparent;
+            background-clip: text;
+
+        }
+    .info{
+        flex-basis: 60%;
+        padding: 17px;
+        @media (max-width: 767px) {
+            flex-basis: 100%;
+          }
+    }
+    .info .info_card{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .info h3{
+        color: var(--clr-i);
+        font-weight: 600;
+        font-size: 22px;
+    }
+    .info_card span{
+        font-size: 14px;
+        padding-right: 30px;
+        font-weight: normal;
+        line-height: 1.4;
+    } 
+    .social{
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .social a {
+        transition: 0.3s all;
+        color: #766fa0;
+        font-size: 20px;
+        display: inline-block;
+    }
+    .social a:hover {
+        transform: scale(1.1);
+        color: black;
+    }
+    
+    .social a:active {
+        transform: scale(1) translateY(5px);
+    }
