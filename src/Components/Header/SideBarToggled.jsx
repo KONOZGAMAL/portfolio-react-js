@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {NavLink } from "react-router-dom";
 import './SideBarToggled.css';
-import NotesIcon from "@mui/icons-material/Notes";
+import NotesIcon  from "@mui/icons-material/Notes";
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
